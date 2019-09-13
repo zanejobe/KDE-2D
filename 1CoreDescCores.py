@@ -16,7 +16,7 @@ matplotlib.rcParams['ps.fonttype'] = 42
 # In[2]:
 
 # Read into pandas DataFrames
-datapath="/Users/zanejobe/Dropbox/1 Core Desc ML/data/"
+datapath="/Users/zanejobe/Google Drive/1_GraphicLogPapers/GraphicLogML/data/"
 filename="AllCores_NoBeds.csv"
 
 df = pd.read_csv(datapath + filename)

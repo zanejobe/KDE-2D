@@ -17,7 +17,7 @@ matplotlib.rcParams['ps.fonttype'] = 42
 ############# THINGS TO MODIFY
 
 # Read into pandas DataFrames
-datapath="/Users/zanejobe/Dropbox/1 Core Desc ML/data/"
+datapath="/Users/zanejobe/Google Drive/1_GraphicLogPapers/GraphicLogML/data/"
 filename="AllBeds.csv"
 
 df = pd.read_csv(datapath + filename)
@@ -36,7 +36,7 @@ for group0, values0 in df.groupby("eodnum"):
 
 plt.xlabel("mean grain size (psi)")
 plt.ylabel("thickness (log10[m])")
-xlim=[-8,-2]
+xlim=[-10,-2]
 ylim=[-2,0]
 plt.xlim(xlim)
 plt.ylim(ylim)
@@ -73,7 +73,6 @@ for group0, values0 in df.groupby("eodnum"):
         ncolor+=1
         print(group0) # error testing
         print(group) # error testing
-
 
 g.ax_joint.legend(leg) # THIS ISNT LABELING THINGS RIGHT
 
