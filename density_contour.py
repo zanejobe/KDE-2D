@@ -66,7 +66,7 @@ def get_last_color(ax):
     else:
         return lines[-1].get_color()
 
-def bivar_kde_contour(x, y, frac=0.9, bw="scott", gridsize=100, cut=3, clip=None, use_package='statsmodels',
+def bivar_kde_contour(x, y, frac, bw="scott", gridsize=100, cut=3, clip=None, use_package='statsmodels',
                      legend=True, color=None, ax=None, axlabel=True, **kwargs):
     '''Compute kde and plot contour at level containing specified fraction of probability mass.
     
