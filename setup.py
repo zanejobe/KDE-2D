@@ -10,7 +10,7 @@ except ImportError:
 PACKAGE_PATH = os.path.abspath(os.path.join(__file__, os.pardir))
 print(PACKAGE_PATH)
 
-setup(name='KDE-2D',
+setup(name='KDE2D',
       version='0.1',
       description='Maiing pretty joint plots using seaborn',
       url='https://github.com/zanejobe/KDE-2D',
